@@ -19,4 +19,5 @@ class MessagesController < ApplicationController
     render(partial: 'message', locals: {message: message})
   end
   
+  
 end
